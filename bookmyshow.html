@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	<style type="text/css">
+		.topbar{
+			width:1500px;
+			height: 70px;
+			background-color:#333565;
+			margin: -8px;
+
+		}
+		#logo{
+			height: 70px;
+			width: 150px;
+			margin-left: 50px;
+		}
+		#searchbar{
+			width: 450px;
+			height: 25px;
+			margin-left: 20px;
+			border-radius: 5px;
+			position: relative;
+			top: -30px;
+		}
+		#dropdown{
+			background-color:#333565 ;
+			color: gray;
+			border: none;
+			position: relative;
+			top: -30px;
+			left: 250px;
+		}
+		#dropdown:hover{
+			color: white;
+		}
+		#btn{
+			color: white;
+			text-decoration: none;
+			border: 0.1px solid #E06374;
+			background-color: #E06374;
+			border-radius: 5px;
+			padding: 5px;
+			position: relative;
+			top: -30px;
+			left: 250px;
+
+		}
+		#menu{
+			color: white;
+			position: relative;
+			top: -22px;
+			left: 280px;
+			font-size: 30px;
+		}
+		#search{
+			color: black;
+			position: relative;
+			top: -15px;
+			left: 45px;
+			font-size: 30px;
+		}
+		.secondnav{
+			height: 40px;
+			width: 1500px;
+			background-color: black;
+			margin-top: -16px;
+			margin-left: -8px;
+		}
+		.secondnavleftitems{
+			color: gray;
+			list-style-type: none;
+
+		}
+		#leftitems{
+			float: left;
+			padding: 5px;
+			padding-top: 10px;
+		}
+		#leftitems:hover{
+			color: white;
+		}
+#rightitems{
+	display: inline;
+	color: white;
+	list-style-type: none;
+	padding: 5px;
+	position: relative;
+	left: 455px;
+	top: 10px;
+	font-size: small;
+}
+#slice{
+	width: 1500px;
+	height: 300px;
+	margin-top: 5px;
+    margin-left: -8px;
+	border-radius: 3px;
+}
+#icc{
+	height: 110px;
+	width: 90%;
+	position: relative;
+	margin-top: 15px;
+	top: 15px;
+	margin-left: 65px;
+	border-radius: 10px;
+
+}
+#mov{
+	margin-left: 65px;
+	font-family: sans-serif;
+	font-size: x-large;
+}
+#i1{
+	height: 320px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+
+#i2{
+	height: 320px;
+	margin-left: 20px;
+    border-radius: 10px;
+}
+#i3{
+	height: 320px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+#i4{
+	height: 320px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+#i5{
+	height: 320px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+#cap1{
+	position: relative;
+	top : 5px;
+	left:65px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+#cap2{
+	position: relative;
+	top : 5px;
+	left:255px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+
+}
+#cap3{
+	position: relative;
+	top : 5px;
+	left:445px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+
+}
+#cap4{
+	position: relative;
+	top : 5px;
+	left:560px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+
+}
+#cap5{
+	position: relative;
+	top : 5px;
+	left:595px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+
+}
+#c1{
+	color: gray;
+	position: relative;
+	top : 10px;
+	left:65px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+
+
+}
+
+#c2{
+	color: gray;
+	position: relative;
+	top : 10px;
+	left:170px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+
+}
+#c3{
+	color: gray;
+	position: relative;
+	top : 10px;
+	left:265px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+}
+#c4{
+	color: gray;
+	position: relative;
+	top : 10px;
+	left:323px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+#c5{
+	color: gray;
+	position: relative;
+	top : 10px;
+	left:420px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+
+
+}
+#et{
+	height: 110px;
+	width: 90%;
+	position: relative;
+	margin-top: 15px;
+	top: 60px;
+	margin-left: 65px;
+	border-radius: 10px;
+}
+#event{
+	margin-left: 65px;
+	font-family: sans-serif;
+	font-size: x-large;
+	margin-top:150px;
+	color:black;
+}
+#em1{
+	margin-left: 65px;
+	border-radius: 10px;
+	
+}
+#em2{
+	margin-left: 5px;
+	border-radius: 10px;
+	
+}
+#em3{
+	margin-left: 5px;
+	border-radius: 10px;
+	
+}
+#em4{
+	margin-left: 5px;
+	border-radius: 10px;
+	
+}
+#em5{
+	margin-left: 5px;
+	border-radius: 10px;
+	
+}
+
+
+.Thirdnav{
+	height: 700px;
+	width: 1500px;
+	background-color: #212936;
+	margin-top: 50px;
+     
+}
+#em6{
+	margin-left: 65px;
+	margin-top: 40px;
+	border-radius: 10px;
+
+
+}
+#em7{
+	border-radius: 10px;
+}
+#em8{
+	border-radius: 10px;
+}
+#pre{
+	color: white;
+	font-family: sans-serif;
+	font-size: x-large;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: left;
+}
+#brand{
+	color: white;
+	margin-left: 65px;
+	margin-top: 50px;
+	margin-bottom: -10px;
+}
+#brand1{
+	color: white;
+	margin-left: 65px;
+	position: relative;
+	top : -10px;
+	left:2px;
+
+}
+#em7{
+	margin-left:65px;
+	
+}
+#capp1{
+	position: relative;
+	top : 5px;
+	left:68px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: white;
+}
+
+#capp2{
+	position: relative;
+	top : 5px;
+	left:150px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: white;
+
+}
+#capp3{
+	position: relative;
+	top : 5px;
+	left:245px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: white;
+
+}
+#capp4{
+	position: relative;
+	top : 5px;
+	left:320px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: white;
+
+}
+#capp5{
+	position: relative;
+	top : 5px;
+	left:460px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: white;
+
+}
+#cc1{
+	color: white;
+	position: relative;
+	top : 10px;
+	left:65px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+
+
+}
+
+#cc2{
+	color: white;
+	position: relative;
+	top : 10px;
+	left:245px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+
+}
+#cc3{
+	color: white;
+	position: relative;
+	top : 10px;
+	left:430px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+}
+#cc4{
+	color: white;
+	position: relative;
+	top : 10px;
+	left:618px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+#cc5{
+	color: white;
+	position: relative;
+	top : 10px;
+	left:800px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+
+
+}
+.fourthnav{
+	height: 430px;
+	width: 1500px;
+	background-color:white;
+	margin-top: 50px;
+}
+
+	#on{
+	margin-left: 65px;
+	font-family: sans-serif;
+	font-size: x-large;
+}
+#on1{
+	margin-left:65px;
+	border-radius: 10px;
+}
+#on2{
+	
+	border-radius: 10px;
+}
+#cappo1{
+	position: relative;
+	top : 10px;
+	left:77px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: black;
+}
+
+#cappo2{
+	position: relative;
+	top : -35px;
+	left:305px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: black;
+
+}
+#cappo3{
+	position: relative;
+	top : -55px;
+	left:350px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: black;
+
+}
+#cappo4{
+	position: relative;
+	top : -55px;
+	left:384px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: black;
+
+}
+#cappo5{
+	position: relative;
+	top : -55px;
+	left:400px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: black;
+
+}
+#cco1{
+	color: gray;
+	position: relative;
+	top : -30px;
+	left:70px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+
+
+}
+
+#cco2{
+	color: gray;
+	position: relative;
+	top : -30px;
+	left:195px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+
+}
+#cco3{
+	color: gray;
+	position: relative;
+	top : -50px;
+	left:315px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+}
+#cco4{
+	color: gray;
+	position: relative;
+	top : -50px;
+	left:435px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+#cco5{
+	color: gray;
+	position: relative;
+	top : -50px;
+	left:570px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+
+
+}
+#ot{
+	margin-top: 40px;
+	margin-left: 65px;
+	font-family: sans-serif;
+	font-size: x-large;
+}
+#ot1{
+	margin-left: 65px;
+	border-radius: 10px;
+}
+#ot2{
+	border-radius: 10px;
+	margin-left: 5px;
+}
+#capot1{
+	position: relative;
+	top : -5px;
+	left:70px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: black;
+}
+
+#capot2{
+	position: relative;
+	top : -30px;
+	left:170px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: black;
+
+}
+#capot3{
+	position: relative;
+	top : -55px;
+	left:550px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: black;
+
+}
+#capot4{
+	position: relative;
+	top : -80px;
+	left:593px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: black;
+
+}
+#capot5{
+	position: relative;
+	top : -80px;
+	left:680px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: black;
+
+}
+#ccot1{
+	color: gray;
+	position: relative;
+	top : -60px;
+	left:75px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+
+
+}
+
+#ccot2{
+	color: gray;
+	position: relative;
+	top : -90px;
+	left: 240px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+
+}
+#ccot3{
+	color: gray;
+	position: relative;
+	top : -60px;
+	left:405px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+}
+#ccot4{
+	color: gray;
+	position: relative;
+	top : -86px;
+	left:573px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+#ccot5{
+	color: gray;
+	position: relative;
+	top : -85px;
+	left:750px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+
+
+}
+.sixthnav{
+	height: 1000px;
+	width: 1500px;
+	background-color:#414345;
+	margin-top: 50px;
+}
+.seventhnav{
+	height:50px;
+	width: 1500px;
+	background-color:#f5f7f7;
+	margin-top: 30px;
+}
+#new{
+	position: relative;
+	top: 20px;
+	color: gray;
+	margin-left: 70px;
+	color: gray;
+	font-size:small;
+	font-family: sans-serif;
+
+}
+#sym{
+	margin-left: 65px;
+	margin-top: 40px;
+}
+#my{
+	color: white;
+	font-size: large;
+	position: relative;
+	top: -10px;
+	margin-left: 10px;
+}
+#btn1{
+			color: white;
+			text-decoration: none;
+			border: 0.1px solid #E06374;
+			background-color: #E06374;
+			border-radius: 5px;
+			padding: 5px;
+			position: relative;
+			top: -10px;
+			left: 200px;
+			font-size: large;
+
+		}
+	</style>
+
+	<title>BookMyshow</title>
+</head>
+<body>
+<div class="topbar">
+	<img src="C:\Users\kiran\OneDrive\Desktop\kkkkkk\bookmyshow.jpg" id="logo">
+	<span><span class="material-symbols-outlined" id="search">
+search
+</span>
+	<input type="text" id="searchbar" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search for Movies, Plays, Sports, Events and Activities"></span>
+	<select id="dropdown"><option>Bengaluru</option></select>
+	<a href="#" id="btn">Sign in</a>
+	<span class="material-symbols-outlined" id="menu">
+menu
+</span>
+</div>
+<div class="secondnav">
+	<ul class="secondnavleftitems">
+		<li id="leftitems">Movies</li>
+		<li id="leftitems">Stream</li>
+		<li id="leftitems">Events</li>
+		<li id="leftitems">Plays</li>
+		<li id="leftitems">Sports</li>
+		<li id="leftitems">Activities</li>
+		<li id="leftitems">Buzz</li>
+	</ul>
+	<ul class="secondnavrightitems">
+		<li id="rightitems">ListYourShow</li>
+		<li id="rightitems">Corporates</li>
+		<li id="rightitems">Offers</li>
+		<li id="rightitems">Gift Cards</li>
+	</ul>
+</div>
+<div>
+	<img src="C:\Users\kiran\OneDrive\Desktop\kkkkkk\image002.png.png" id="slice"></div>
+<div>
+<img src="C:\Users\kiran\OneDrive\Desktop\kkkkkk\post_image_1ac82d1.jpg" id="icc"></div>
+<div><h2 id="mov">Recommended Movies </h2></div>
+<div> 
+	<img src="C:\Users\kiran\OneDrive\Desktop\kkkkkk\jawan.jpg" id="i1">
+	
+	<img src="C:\Users\kiran\OneDrive\Desktop\kkkkkk\Sapta-Sagaradaache-Ello-Poster-696x392.jpg" id="i2">
+	
+	<img src="C:\Users\kiran\OneDrive\Desktop\kkkkkk\miss-shetty-mr-polishetty-indian-movie-poster.jpg" id="i3">
+	
+	<img src="C:\Users\kiran\OneDrive\Desktop\kkkkkk\th.jpeg" id="i4">
+	
+	<img src="C:\Users\kiran\OneDrive\Desktop\kkkkkk\Vijay-Deverakonda-Samantha-Kushi-First-Look-HD-Poster-1418x2048.jpg" id="i5">
+	<div> 
+	
+	<span id="cap1">Jawan</span> 
+	<span id="cap2">Sapta Sagaradaache Ello</span>
+	<span id="cap3">Miss Shetty Mr Polishetty</span>
+	<span id="cap4">The Nun II</span>
+	<span id="cap5">Kushi</span>
+	</div>
+
+	<div>
+		<span id="c1">Action/Drama/Thillar</span>
+		<span id="c2">Crime/Drama/Thillar</span>
+		<span id="c3">Comedy/Drama/Romantic</span>
+		<span id="c4">Action/Crime/Drama</span>
+		<span id="c5">Action/Thillar</span>
+	</div>
+	<div>
+		<img src="C:\Users\kiran\OneDrive\Desktop\kkkkkk\774031b669c6a4712775369e5d7daf19.jpg" id="et">
+	</div>
+</div>
+<div>
+	<h2 id="event">The Best Of Live Events</h2>
+</div>
+<div>
+	<img src="C:\Users\kiran\OneDrive\Desktop\kkkkkk\376648114.jpg" id="em1">
+	<img src="C:\Users\kiran\OneDrive\Desktop\kkkkkk\Live-and-Special-Events-Web-On-Demand-Preview-Graphic.jpg" id="em2">
+	<img src="C:\Users\kiran\OneDrive\Desktop\kkkkkk\th (2).jpeg" id="em3">
+	<img src="C:\Users\kiran\OneDrive\Desktop\kkkkkk\th (1).jpeg" id="em4">
+	<img src="C:\Users\kiran\OneDrive\Desktop\kkkkkk\th (3).jpeg" id="em5">
+
+
+</div>
+<div class="Thirdnav">
+	
+	<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (19).png" id="em6">
+	<h1 id="brand">Premieres</h1><br>
+	<span id="brand1">Brand new releases every friday</span><br>
+	
+	
+		<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (20).png" id="em7">
+		<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (21).png" id="em8">
+		<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (22).png" id="em8">
+		<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (23).png" id="em8">
+		<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (24).png" id="em8"><br>
+
+
+		<span id="capp1">Pui Pui Molcar:S1</span> 
+	    <span id="capp2">The silent forest</span>
+		<span id="capp3">One Fine Morning</span>
+		<span id="capp4">Sun Moon</span>
+		<span id="capp5">Somewhere in Queens</span><br>
+
+		<span id="cc1">Japanese</span>
+		<span id="cc2">German</span>
+		<span id="cc3">French</span>
+		<span id="cc4">English</span>
+		<span id="cc5">English</span>
+
+	</div>
+	<div class="fourthnav">
+		<h2 id="on">Online Streaming Events</h2>
+
+		<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (26).png" id="on1">
+		<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (27).png" id="on2">
+		<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (28).png" id="on2">
+		<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (29).png" id="on2">
+		<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (30).png" id="on2">
+
+</div>
+<div>
+		<span id="cappo1">Masterclass "Get<br> Your dream Job!"</span> <br>
+	    <span id="cappo2">NCPA-HSPA Music <br> Work By Shantanu...</span>
+		<span id="cappo3">WeMET Speed Dating</span>
+		<span id="cappo4">Blind dating 40+-Florican</span>
+		<span id="cappo5">Talk Session in English</span><br>
+</div> 
+<div>
+		<span id="cco1">Watch On Zoom</span>
+		<span id="cco2">Watch On Zoom</span>
+		<span id="cco3">Watch On Zoom</span>
+		<span id="cco4">Watch On Zoom</span>
+		<span id="cco5">Watch On Zoom</span>
+	</div>
+	<div class="fifthnav">
+		<h2 id="ot"> Outdoor events<h2>
+			<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (32).png" id="ot1">
+			<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (33).png" id="ot2">
+			<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (34).png" id="ot2">
+			<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (35).png" id="ot2">
+			<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (36).png" id="ot2">
+
+		<span id="capot1">NeeNaaNaaDre<br>NaaNeeNeNaa</span> 
+	    <span id="capot2">VAN GOGH 360</span><br>
+		<span id="capot3">Kisiko batana matt By <br> Anubhav Sign Bassi</span>
+		<span id="capot4">Zakir Khan Live</span>
+		<span id="capot5">Bhanusingher Padaboli</span><br>
+
+		<span id="ccot1">Bengaluru</span>
+		<span id="ccot2">Bengaluru</span>
+		<span id="ccot3">Mumbai</span>
+		<span id="ccot4">Mumbai</span>
+		<span id="ccot5">Koramangala</span>
+
+	</div>
+	<div class="seventhnav"> <h2 id="new">HOME</h2> </div>
+	<div class="sixthnav">
+		<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (38).png" id="sym">
+		<span id="my"> List Your show Got a show, event, avtivity or a Great experienece? partner with us & get listed on BookMyShow</span>
+		<a href="#" id="btn1">Contact today!</a><br>
+		<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (40).png"><br>
+		<img src="C:\Users\New User\OneDrive\Pictures\Screenshots\Screenshot (42).png">
+	</div>
+	
+</body>
+</html>
